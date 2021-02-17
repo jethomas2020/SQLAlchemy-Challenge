@@ -38,17 +38,17 @@ Precipitation Analysis
 -------- 
 Station Analysis
 
-    Design a query to calculate the total number of stations.
+    Designed a query to calculate the total number of stations.
 
-    Design a query that lists all stations with their corresponding observation count in descending order.
+    Designed a query that lists all stations with their corresponding observation count in descending order.
         Which station is the most active (i.e., has the greatest number of observations)?
 
-    Design a query to retrieve the last 12 months of temperature observation data (TOBS) for the most active station.
+    Designed a query to retrieve the last 12 months of temperature observation data (TOBS) for the most active station.
 
-        Plot the results as a histogram with bins=12.
+        Plotted the results as a histogram with bins=12.
 
-        station-histogram
 
+--------------
 Step 2 - Climate App
 
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
