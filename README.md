@@ -26,16 +26,16 @@ Precipitation Analysis
     Designed a query to retrieve the date and prcp values from the last 12 months of precipitation data (from the most recent date in the database).
         There are more than one prcp value for each date. Calculate the average of these values so you have a single prcp value per date.
 
-    Load the query results into a Pandas DataFrame and set the index to the date column.
+    Loaded the query results into a Pandas DataFrame and set the index to the date column.
 
-    Sort the DataFrame values by date.
+    Sorted the DataFrame values by date.
 
-    Plot the results using the DataFrame plot method. Your plot may look different from the one below.
+    Plotted the results using the DataFrame plot method.
 
-    precipitation
-
-    Use Pandas to print the summary statistics for the precipitation data.
-
+    Used Pandas to print the summary statistics for the precipitation data.
+    
+    
+-------- 
 Station Analysis
 
     Design a query to calculate the total number of stations.
