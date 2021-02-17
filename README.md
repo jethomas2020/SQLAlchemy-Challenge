@@ -51,7 +51,7 @@ Station Analysis
 --------------
 Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+In addition to the initial analysis, you can also design a Flask API based on the queries that we have just developed.
 
     Use Flask to create your routes.
 
@@ -89,7 +89,7 @@ Routes
 
 Bonus: Other Recommended Analyses
 
-    The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
+    The following are optional challenge queries. These are highly recommended to attempt, but not required.
 
 Temperature Analysis I
 
@@ -128,9 +128,6 @@ Daily Temperature Average
 
     daily-normals
 
-Copyright
-
-Trilogy Education Services © 2020. All Rights Reserved.
 
 
 
