@@ -87,6 +87,7 @@ Routes
 
         Return a JSONified dictionary of min, max, and avg temperatures.
 
+--------------------------
 Bonus: Other Recommended Analyses
 
     The following are optional challenge queries. These are highly recommended to attempt, but not required.
@@ -127,8 +128,8 @@ Daily Temperature Average
     Use Pandas to plot an area plot (stacked=False) for the daily normals.
 
     daily-normals
-
-
-
-
-
+    
+    
+    
+    
+    
