@@ -41,7 +41,7 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
     
     
 -------- 
-Station Analysis
+# Station Analysis
 
     Designed a query to calculate the total number of stations.
 
@@ -50,7 +50,7 @@ Station Analysis
 
     Designed a query to retrieve the last 12 months of temperature observation data (TOBS) for the most active station.
 
-        Plotted the results as a histogram with bins=12.
+    Plotted the results as a histogram with bins=12.
 
 
 --------------
