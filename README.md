@@ -69,8 +69,10 @@ Routes
         List all routes that are available.
 
     /api/v1.0/precipitation
-        Using the query from part 1 (most recent 12 months of precipitation data), convert the query results to a dictionary using date as the key and prcp as the value.
-        Return the JSON representation of your dictionary (note the specific format of your dictionary as required from above).
+        Using the query from part 1 (most recent 12 months of precipitation data), convert the query results to a 
+            dictionary using date as the key and prcp as the value.
+        Return the JSON representation of your dictionary (note the specific format of your dictionary as
+            required from above).
 
     /api/v1.0/stations
         Return a JSON list of stations from the dataset.
@@ -83,12 +85,15 @@ Routes
 
     /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
-        Create a query that returns the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
+        Create a query that returns the minimum temperature, the average temperature, and the max temperature 
+            for a given start or start-end range.
             Hint: You will need to use a function such as func.min, func.max, func.avg, and func.count in your queries.
 
-        When given the start date only, calculate min, max, and avg for all dates greater than and equal to the start date.
+        When given the start date only, calculate min, max, and avg for all dates greater than and equal to the 
+            start date.
 
-        When given the start and the end date, calculate the min, avg, and max for dates between the start and end date inclusive.
+        When given the start and the end date, calculate the min, avg, and max for dates between the start 
+            and end date inclusive.
 
         Return a JSONified dictionary of min, max, and avg temperatures.
 
