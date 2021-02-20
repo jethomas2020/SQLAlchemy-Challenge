@@ -28,9 +28,9 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
 -------
 # Precipitation Analysis
 
-    Designed a query to retrieve the date and prcp values from the last 12 months of precipitation data (from the most 
-        recent date in the database).There are more than one prcp value for each date. Calculated the average of these 
-        values so we have a single prcp value per date.
+    Designed a query to retrieve the date and prcp values from the last 12 months of precipitation data 
+        (from the most recent date in the database).There are more than one prcp value for each date. 
+        Calculated the average of these values so we have a single prcp value per date.
 
     Loaded the query results into a Pandas DataFrame and set the index to the date column.
 
