@@ -5,7 +5,9 @@
 ------- 
 # Background
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! 
+
+To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
 
 --------
@@ -15,11 +17,12 @@ To begin, we used Python and SQLAlchemy to do basic climate analysis and data ex
 
 The following analysis was completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-   - Used the hawaii.sqlite files in the Resources Folder to complete the climate analysis and data exploration.
+    - Used the hawaii.sqlite files in the Resources Folder to complete the climate analysis and data exploration.
 
     - Used SQLAlchemy create_engine to connect to the sqlite database.
 
-    - Used SQLAlchemy automap_base() to reflect the tables into classes and save a reference to those classes called Station and Measurement.
+    - Used SQLAlchemy automap_base() to reflect the tables into classes and save a reference to those classes 
+      called Station and Measurement.
 
 -------
 Precipitation Analysis
