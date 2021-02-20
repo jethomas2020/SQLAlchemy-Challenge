@@ -61,7 +61,7 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
 
 In addition to the initial analysis, we can also design a Flask API based on the queries that we have just developed.
 
-    Used Flask to create your routes.
+    Use Flask to create our routes.
 
 Routes
     /
@@ -73,7 +73,7 @@ Routes
     /api/v1.0/precipitation
         Using the query from part 1 (most recent 12 months of precipitation data), convert 
             the query results to a dictionary using date as the key and prcp as the value.
-        Return the JSON representation of your dictionary (note the specific format of your 
+        Return the JSON representation of your dictionary (note the specific format of our 
             dictionary as required from above).
 
     /api/v1.0/stations
@@ -90,7 +90,7 @@ Routes
 
         Create a query that returns the minimum temperature, the average temperature, and the
             max temperature for a given start or start-end range.
-            Hint: You will need to use a function such as func.min, func.max, func.avg, and 
+            Hint: We will need to use a function such as func.min, func.max, func.avg, and 
             func.count in your queries.
 
         When given the start date only, calculate min, max, and avg for all dates greater than 
