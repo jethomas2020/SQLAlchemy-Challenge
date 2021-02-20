@@ -73,15 +73,16 @@ Routes
     /api/v1.0/precipitation
         Using the query from part 1 (most recent 12 months of precipitation data), convert 
             the query results to a dictionary using date as the key and prcp as the value.
-        Return the JSON representation of your dictionary (note the specific format of your dictionary as
-            required from above).
+        Return the JSON representation of your dictionary (note the specific format of your 
+            dictionary as required from above).
 
     /api/v1.0/stations
         Return a JSON list of stations from the dataset.
 
     /api/v1.0/tobs
 
-        Query the dates and temperature observations of the most active station for the latest year of data.
+        Query the dates and temperature observations of the most active station for the 
+            latest year of data.
 
         Return a JSON list of temperature observations (TOBS) for that year.
 
