@@ -54,14 +54,13 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
 
 
 --------------
-Step 2 - Climate App
+# Step 2 - Climate App
 
-In addition to the initial analysis, you can also design a Flask API based on the queries that we have just developed.
+In addition to the initial analysis, we can also design a Flask API based on the queries that we have just developed.
 
-    Use Flask to create your routes.
+    Used Flask to create your routes.
 
 Routes
-
     /
 
         Home page.
