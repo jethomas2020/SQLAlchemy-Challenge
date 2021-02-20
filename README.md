@@ -46,10 +46,12 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
 
     Designed a query to calculate the total number of stations.
 
-    Designed a query that lists all stations with their corresponding observation count in descending order.
+    Designed a query that lists all stations with their corresponding observation count in 
+        descending order. 
         Which station is the most active (i.e., has the greatest number of observations)?
 
-    Designed a query to retrieve the last 12 months of temperature observation data (TOBS) for the most active station.
+    Designed a query to retrieve the last 12 months of temperature observation data (TOBS) 
+        for the most active station.
 
     Plotted the results as a histogram with bins=12.
 
@@ -69,8 +71,8 @@ Routes
         List all routes that are available.
 
     /api/v1.0/precipitation
-        Using the query from part 1 (most recent 12 months of precipitation data), convert the query results to a 
-            dictionary using date as the key and prcp as the value.
+        Using the query from part 1 (most recent 12 months of precipitation data), convert 
+            the query results to a dictionary using date as the key and prcp as the value.
         Return the JSON representation of your dictionary (note the specific format of your dictionary as
             required from above).
 
@@ -85,60 +87,19 @@ Routes
 
     /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
-        Create a query that returns the minimum temperature, the average temperature, and the max temperature 
-            for a given start or start-end range.
-            Hint: You will need to use a function such as func.min, func.max, func.avg, and func.count in your queries.
+        Create a query that returns the minimum temperature, the average temperature, and the
+            max temperature for a given start or start-end range.
+            Hint: You will need to use a function such as func.min, func.max, func.avg, and 
+            func.count in your queries.
 
-        When given the start date only, calculate min, max, and avg for all dates greater than and equal to the 
-            start date.
+        When given the start date only, calculate min, max, and avg for all dates greater than 
+            and equal to the start date.
 
-        When given the start and the end date, calculate the min, avg, and max for dates between the start 
-            and end date inclusive.
+        When given the start and the end date, calculate the min, avg, and max for dates 
+            between the start and end date inclusive.
 
         Return a JSONified dictionary of min, max, and avg temperatures.
 
---------------------------
-Bonus: Other Recommended Analyses
-
-    The following are optional challenge queries. These are highly recommended to attempt, but not required.
-
-Temperature Analysis I
-
-    Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
-
-    You may either use SQLAlchemy or pandas's read_csv() to perform this portion.
-
-    Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
-
-    Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
-
-Temperature Analysis II
-
-    The starter notebook contains a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d. The function will return the minimum, average, and maximum temperatures for that range of dates.
-
-    Use the calc_temps function to calculate the min, avg, and max temperatures for a 3-10 day trip using the matching dates from the most recent year in the databse (i.e., use "2018-01-01" if your trip start date was "2021-01-01").
-
-    Plot the min, avg, and max temperature from your previous query as a bar chart.
-
-        Use the average temperature as the bar height.
-
-        Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
-
-        temperature
-
-Daily Temperature Average
-
-    Calculate the daily normals across all weather stations for all previous years with matching month and day. Normals are the averages for the min, avg, and max temperatures.
-        You are provided with a function called daily_normals that will return the daily normals for a specific month and day in tuple format. This date string will be in the format %m-%d. Be sure to use all historic TOBS that match that date string.
-
-    Use the daily_normals function to calculate the normals for each date string and append the resulting tuples to a list.
-
-    Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
-
-    Use Pandas to plot an area plot (stacked=False) for the daily normals.
-
-    daily-normals
-    
     
     
     
