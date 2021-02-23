@@ -66,9 +66,8 @@ In addition to the initial analysis, we also designed a Flask API based on the q
     Used Flask to create our routes.
 
 **Routes**
-    /
-
-**        Home page.**
+    / 
+       Home Page
 
         List all routes that are available.
 
