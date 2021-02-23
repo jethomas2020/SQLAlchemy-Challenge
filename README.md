@@ -49,6 +49,8 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
     Designed a query that lists all stations with their corresponding observation count in 
         descending order. 
         Which station is the most active (i.e., has the greatest number of observations)?
+        
+    Designed a query for the lowest, highest, and average temperature for the most active station. 
 
     Designed a query to retrieve the last 12 months of temperature observation data (TOBS) 
         for the most active station.
@@ -59,14 +61,14 @@ The following analysis was completed using SQLAlchemy ORM queries, Pandas, and M
 --------------
 # Step 2 - Climate App
 
-In addition to the initial analysis, we can also design a Flask API based on the queries that we have just developed.
+In addition to the initial analysis, we also designed a Flask API based on the queries that we have just developed.
 
-    Use Flask to create our routes.
+    Used Flask to create our routes.
 
-Routes
+**Routes**
     /
 
-        Home page.
+**        Home page.**
 
         List all routes that are available.
 
